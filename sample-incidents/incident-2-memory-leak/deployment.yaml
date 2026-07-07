@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: recommendation-service
+  namespace: production
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: recommendation-service
+    spec:
+      containers:
+        - name: recommendation-service
+          image: us-central1-docker.pkg.dev/acme/prod/recommendation-service:v4.3.0
+          resources:
+            requests:
+              memory: "512Mi"
+              cpu: "250m"
+            limits:
+              memory: "1Gi"
+              cpu: "1"
+          env:
+            - name: CACHE_STRATEGY
+              value: "in-memory-unbounded"

@@ -1,0 +1,5 @@
+Dashboard snapshot notes:
+- payment-api availability dropped from 99.9% to 12% at 12:05 UTC
+- HTTP 503 errors increased sharply
+- All new payment-api pods are in CrashLoopBackOff
+- Database metrics look normal; no CPU or storage saturation

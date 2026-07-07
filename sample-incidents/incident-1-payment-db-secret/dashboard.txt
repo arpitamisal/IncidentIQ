@@ -1,0 +1,11 @@
+Payment API Availability Dashboard
+Time range: 2026-07-06 12:00 UTC - 12:15 UTC
+
+12:00 availability: 99.97%
+12:04 deployment v2.8.1 started
+12:05 availability: 12%
+12:05 HTTP 503 error rate: 87%
+12:06 pod restarts: 32
+12:07 database CPU: 18%
+12:07 database connections: normal
+12:08 checkout failures: 76%

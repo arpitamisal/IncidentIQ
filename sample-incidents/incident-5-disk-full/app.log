@@ -1,0 +1,4 @@
+2026-07-06T18:22:15Z ERROR failed to create order: database write failed
+2026-07-06T18:22:30Z ERROR checkout transaction rolled back
+2026-07-06T18:23:00Z WARN retrying database write
+2026-07-06T18:23:07Z ERROR HTTP 500 route=/orders

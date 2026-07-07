@@ -1,0 +1,5 @@
+2026-07-06T06:55:00Z INFO ingress-nginx started
+2026-07-06T07:00:01Z ERROR TLS handshake failed for api.acme-shop.com
+2026-07-06T07:00:01Z ERROR x509: certificate has expired or is not yet valid
+2026-07-06T07:01:20Z WARN client connection rejected during TLS validation
+2026-07-06T07:02:42Z ERROR SSL alert number 45: certificate expired

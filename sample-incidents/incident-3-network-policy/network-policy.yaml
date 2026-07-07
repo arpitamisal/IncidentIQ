@@ -1,0 +1,30 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: restrict-order-api-ingress
+  namespace: production
+spec:
+  podSelector:
+    matchLabels:
+      app: order-api-v2
+  policyTypes:
+    - Ingress
+  ingress:
+    - from:
+        - podSelector:
+            matchLabels:
+              app: checkout-ui
+      ports:
+        - protocol: TCP
+          port: 8080
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: order-api
+  namespace: production
+spec:
+  template:
+    metadata:
+      labels:
+        app: order-api

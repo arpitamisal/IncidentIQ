@@ -1,0 +1,7 @@
+API Gateway Metrics
+06:55 backend health: healthy
+07:00 TLS handshake failures spike from 0/min to 850/min
+07:01 HTTP application errors: normal
+07:02 successful browser sessions: down 70%
+07:03 api-gateway CPU: normal
+07:03 database latency: normal

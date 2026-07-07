@@ -1,0 +1,4 @@
+Filesystem                 Size  Used Avail Use% Mounted on
+/dev/postgres-pvc           100G  100G     0 100% /var/lib/postgresql/data
+overlay                      40G   22G   18G  55% /
+tmpfs                       2.0G     0  2.0G   0% /dev/shm

@@ -1,0 +1,6 @@
+2026-07-06T21:10:01Z INFO product-api v5.1.0 started
+2026-07-06T21:10:10Z ERROR cache connection failed: redis-old.production.svc.cluster.local:6379 connection refused
+2026-07-06T21:10:15Z WARN falling back to database for product catalog reads
+2026-07-06T21:11:00Z WARN database query latency p95=2800ms
+2026-07-06T21:12:00Z ERROR request timeout route=/products
+2026-07-06T21:13:00Z ERROR database pool exhausted

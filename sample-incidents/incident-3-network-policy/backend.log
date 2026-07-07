@@ -1,0 +1,5 @@
+2026-07-06T15:00:00Z INFO order-api healthy
+2026-07-06T15:01:00Z INFO request_count=0
+2026-07-06T15:02:00Z INFO request_count=0
+2026-07-06T15:03:00Z INFO request_count=0
+2026-07-06T15:04:00Z INFO pod healthy, no incoming requests

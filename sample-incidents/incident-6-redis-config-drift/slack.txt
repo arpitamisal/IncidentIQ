@@ -1,0 +1,7 @@
+#incident-channel
+
+21:05 Maya: Redis migration completed. New service is redis-new.production.svc.cluster.local.
+21:07 Liam: Product API deploy is starting now.
+21:11 Arpita: Product pages are timing out. Logs mention database pool exhausted.
+21:12 Maya: Database looks overloaded, but Redis old cluster was decommissioned after migration.
+21:13 Liam: Checking if product-api picked up the new Redis endpoint.

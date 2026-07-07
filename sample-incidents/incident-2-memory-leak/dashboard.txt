@@ -1,0 +1,11 @@
+Recommendation Service Metrics
+09:15 deployment v4.3.0 started
+09:20 memory usage: 246Mi
+09:25 memory usage: 512Mi
+09:30 memory usage: 836Mi
+09:35 memory usage: 1018Mi
+09:36 OOMKilled count: 3
+09:37 error rate: 28%
+09:38 latency p95: 4800ms
+CPU remains below 50%.
+Database latency remains normal.

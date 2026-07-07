@@ -1,0 +1,8 @@
+Database Storage Dashboard
+18:00 disk usage: 92%
+18:10 disk usage: 96%
+18:20 disk usage: 99%
+18:22 disk usage: 100%
+18:22 write failures begin
+18:23 checkout HTTP 500 rate: 43%
+18:24 read queries still partially successful

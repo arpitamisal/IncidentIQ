@@ -1,0 +1,7 @@
+Browser error seen by users:
+
+Your connection is not private
+NET::ERR_CERT_DATE_INVALID
+Subject: api.acme-shop.com
+Expired on: 2026-07-06 06:59:59 UTC
+Current time: 2026-07-06 07:02:10 UTC

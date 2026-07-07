@@ -1,0 +1,5 @@
+2026-07-06T15:01:12Z INFO checkout-ui calling http://order-api.production.svc.cluster.local/orders
+2026-07-06T15:01:42Z ERROR upstream timeout after 30000ms
+2026-07-06T15:01:42Z WARN response_status=504 route=/checkout
+2026-07-06T15:02:12Z ERROR order-api unreachable from checkout-ui
+2026-07-06T15:04:00Z ERROR 504 Gateway Timeout count=184

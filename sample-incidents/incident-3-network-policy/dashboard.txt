@@ -1,0 +1,7 @@
+Order API Dashboard
+15:00 deployment healthy
+15:01 NetworkPolicy restrict-order-api-ingress applied
+15:02 checkout 504 rate: 62%
+15:03 order-api inbound requests: 0 rpm
+15:03 order-api pod health: healthy
+15:04 database health: healthy

@@ -1,0 +1,5 @@
+2026-07-06T18:22:11Z ERROR could not extend file "base/16384/24576": No space left on device
+2026-07-06T18:22:11Z HINT Check free disk space.
+2026-07-06T18:22:12Z ERROR checkpoint request failed
+2026-07-06T18:22:30Z ERROR could not write to file "pg_wal/xlogtemp.924": No space left on device
+2026-07-06T18:23:05Z FATAL database is not accepting write connections

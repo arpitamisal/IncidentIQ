@@ -1,0 +1,8 @@
+Product API Dashboard
+21:05 Redis migration completed
+21:10 product-api deploy v5.1.0
+21:10 cache hit rate drops from 91% to 0%
+21:11 database reads increase 8x
+21:12 product-api p95 latency: 6200ms
+21:13 database pool saturation: 100%
+21:14 HTTP 504 rate: 38%

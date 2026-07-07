@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: product-api-config
+  namespace: production
+data:
+  REDIS_HOST: redis-old.production.svc.cluster.local
+  REDIS_PORT: "6379"
+  CACHE_TTL_SECONDS: "600"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis-new
+  namespace: production
+spec:
+  selector:
+    app: redis-new
+  ports:
+    - port: 6379

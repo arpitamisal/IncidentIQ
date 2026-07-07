@@ -1,0 +1,8 @@
+2026-07-06T12:04:21Z INFO deployment payment-api:v2.8.1 started
+2026-07-06T12:04:22Z INFO loading environment variables
+2026-07-06T12:04:22Z ERROR DATABASE_URL is empty
+2026-07-06T12:04:22Z ERROR failed to initialize PostgreSQL connection: missing connection string
+2026-07-06T12:04:23Z WARN readiness probe failed: /health returned 503
+2026-07-06T12:04:25Z ERROR application startup aborted
+2026-07-06T12:05:02Z INFO Kubernetes restarting container payment-api
+2026-07-06T12:05:36Z WARN pod/payment-api-7f9d8c6b5 enters CrashLoopBackOff
