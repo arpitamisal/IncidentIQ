@@ -36,6 +36,12 @@ Production incidents are stressful because the evidence needed to diagnose them 
 
 Gemini is used as the reasoning engine. The backend sends uploaded evidence to Gemini with a structured SRE investigation prompt. Gemini returns JSON containing the root cause, timeline, findings, severity, confidence score, recommended fixes, kubectl commands, and a postmortem report.
 
+## Application Images
+<img width="1470" height="879" alt="Screenshot 2026-07-06 at 7 08 53 PM" src="https://github.com/user-attachments/assets/476ec2d6-8ab1-486c-9c5f-66a06689b152" />
+<img width="1470" height="881" alt="Screenshot 2026-07-06 at 7 10 30 PM" src="https://github.com/user-attachments/assets/cac74c73-6733-43dc-909c-78b5f4c7d86e" />
+<img width="1470" height="884" alt="Screenshot 2026-07-06 at 7 10 38 PM" src="https://github.com/user-attachments/assets/81dd1833-9ed4-41a8-b31d-31fea9e4f69c" />
+<img width="1470" height="883" alt="Screenshot 2026-07-06 at 7 11 04 PM" src="https://github.com/user-attachments/assets/b97c84ad-1bed-4bb8-8c73-dd5823939146" />
+
 ## Project Structure
 
 ```text
